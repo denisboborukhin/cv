@@ -1,0 +1,107 @@
+\documentclass[11pt]{article}
+\usepackage{graphicx}
+\setlength{\parindent}{0pt}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc} 
+\usepackage[T1,T2A]{fontenc}
+\usepackage[brazil]{babel}
+\usepackage{lipsum}
+\usepackage[left=1.06cm,top=1.7cm,right=1.06cm,bottom=0.49cm]{geometry}
+\usepackage{fontawesome}
+
+\usepackage{hyphenat}
+\hyphenpenalty=10000 % полностью запрещает переносы
+
+\begin{document}
+\begin{center}
+    \textbf{Denis Boborukhin}\\ 
+    \hrulefill
+\end{center}
+
+\newcommand{\infofield}[2]{\mbox{{\normalsize #1}\hspace{0.5em}#2}}
+\newcommand{\email}[1]{\infofield{\faEnvelope}{\href{mailto:#1}{#1}}}
+\newcommand{\location}[1]{\infofield{\faMapMarker}{#1}}
+\newcommand{\linkedin}[2]{\infofield{\faLinkedin}{\href{#2}{#1}}}
+\newcommand{\github}[2]{\infofield{\faGithub}{\href{#2}{#1}}}
+\newcommand{\telegram}[2]{\infofield{\faSend}{\href{#2}{#1}}}
+
+\begin{center}
+    \location{Moscow, Russia}
+    \email{denis.boborukhin@gmail.com}
+    \telegram{@dboborukhin}{https://t.me/dboborukhin} \\
+    \linkedin{Denis Boborukhin}{https://www.linkedin.com/in/denis-boborukhin/}
+    \github{@denisboborukhin}{https://github.com/denisboborukhin}
+\end{center}
+
+\vspace{0.5pt}
+
+\begin{center}
+    \textbf{Education}
+\end{center}
+
+\textbf{Skolkovo Institute of Science and Technology: Skoltech} \hfill Moscow
+
+Master of Engineering, Engineering Systems: Product Lifecycle Management \hfill 2025-2027
+\begin{itemize}[noitemsep, topsep=0pt, partopsep=0pt, parsep=0pt]
+    \item Systems architecture, product lifecycle management 
+    \item Technological entrepreneurship
+\end{itemize}
+
+\vspace{12pt}
+
+\textbf{Moscow Institute of Physics and Technology: MIPT} \hfill Moscow
+
+Bachelor, Radio Engineering and Cybernetics \hfill 2021-2025
+\begin{itemize}[noitemsep, topsep=0pt, partopsep=0pt, parsep=0pt]
+    \item The use and application of the C/C++ languages, system programming 
+    \item Architecture of computing cores and memory subsystems of modern microprocessors
+\end{itemize}
+
+\vspace{12pt}
+
+\begin{center}
+    \textbf{Experience}
+\end{center}
+\textbf{Yadro} \hfill Moscow
+
+\textbf{Software Engineer} \hfill July 2023 – Present
+\begin{itemize}[noitemsep, topsep=0pt, partopsep=0pt, parsep=0pt]
+    \item Developed QEMU-based profiling tools for metric collection, enabling application analysis to identify performance
+     bottlenecks and generate insights for potential compiler and microarchitectural optimizations.
+    \item Researched and developed methods for detecting microarchitectural performance bottlenecks through \\
+     instruction-level analysis, providing recommendations for design improvements.
+    \item Developed a tool for selecting small, representative application sections that accurately capture the overall workload,
+     enabling performance analysis on high-fidelity simulators.
+    \item Implemented a system for metric storage and analytics, providing insights into applications behavior
+     and enabling visualization of large-scale performance data.
+\end{itemize}
+
+\begin{center}
+    \textbf{Activities}
+\end{center}
+
+\textbf{FidgetSense (Partner)} \hfill September 2025 – Present
+
+Develops a hardware-software system of three wireless smart rings that continuously track finger movements
+ to detect anxiety-related fidgeting. Algorithms analyze movement dynamics
+ to quantify anxiety levels and evaluate treatment effectiveness through observed dynamic over time.
+
+Achievements:
+\begin{itemize}[noitemsep, topsep=0pt, partopsep=0pt, parsep=0pt]
+    \item Triple Point Social Tech Competition: Third place
+    \item Skoltech Innovation Workshop (Medical Cohort): Third place
+\end{itemize}
+
+\begin{center}
+    \textbf{Skills \& Interests}
+\end{center}
+
+\textbf{Technical:} C/C++, Python, Linux, ML, architecture of computing cores and memory subsystem, Go, MBSE
+
+\textbf{Language:} Russian(native), English(B2)
+
+\textbf{Interests:} state of the art technologies, systems engineering, system programming, system modeling \& simulation
+
+
+\end{document}
