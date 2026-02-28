@@ -1,0 +1,108 @@
+\documentclass[11pt]{article}
+\usepackage{graphicx}
+\setlength{\parindent}{0pt}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc} 
+\usepackage[T1,T2A]{fontenc}
+\usepackage[brazil]{babel}
+\usepackage{lipsum}
+\usepackage[left=1.06cm,top=1.7cm,right=1.06cm,bottom=0.49cm]{geometry}
+\usepackage{fontawesome}
+
+\usepackage{hyphenat}
+\hyphenpenalty=10000
+
+\begin{document}
+\begin{center}
+    \textbf{Денис Боборухин}\\ 
+    \hrulefill
+\end{center}
+
+\newcommand{\infofield}[2]{\mbox{{\normalsize #1}\hspace{0.5em}#2}}
+\newcommand{\email}[1]{\infofield{\faEnvelope}{\href{mailto:#1}{#1}}}
+\newcommand{\location}[1]{\infofield{\faMapMarker}{#1}}
+\newcommand{\linkedin}[2]{\infofield{\faLinkedin}{\href{#2}{#1}}}
+\newcommand{\github}[2]{\infofield{\faGithub}{\href{#2}{#1}}}
+\newcommand{\telegram}[2]{\infofield{\faSend}{\href{#2}{#1}}}
+
+\begin{center}
+    \location{Москва, Россия}
+    \email{denis.boborukhin@gmail.com}
+    \telegram{@dboborukhin}{https://t.me/dboborukhin} \\
+    \linkedin{denis-boborukhin/}{https://www.linkedin.com/in/denis-boborukhin/}
+    \github{@denisboborukhin}{https://github.com/denisboborukhin}
+\end{center}
+
+\vspace{0.5pt}
+
+\begin{center}
+    \textbf{Образование}
+\end{center}
+
+\textbf{Сколковский Институт Науки и Технологий: Сколтех} \hfill Москва
+
+Магистр Наук, Инженерные Системы: Управление Жизненным Циклом Продукта \hfill 2025-2027
+\begin{itemize}[noitemsep, topsep=0pt, partopsep=0pt, parsep=0pt]
+    \item инженерия систем, управление жизненным циклом продукта 
+    \item технологическое предпринимательство
+\end{itemize}
+
+\vspace{12pt}
+
+\textbf{Московский Физико-Технический Институт: МФТИ} \hfill Москва
+
+Бакалавр, Факультет Радиотехники и Компьютерных Технологий \hfill 2021-2025
+\begin{itemize}[noitemsep, topsep=0pt, partopsep=0pt, parsep=0pt]
+    \item использование и применение языков C/C++, системное программирование
+    \item архитектура вычислительных ядер и подсистемы памяти современных микропроцессоров
+\end{itemize}
+
+\vspace{12pt}
+
+\begin{center}
+    \textbf{Опыт}
+\end{center}
+\textbf{Yadro} \hfill Москва
+
+\textbf{Инженер-программист} \hfill июль 2023 – настоящее время
+\begin{itemize}[noitemsep, topsep=0pt, partopsep=0pt, parsep=0pt]
+    \item Разработал инструменты профилирования приложений на основе QEMU с целью выявления узких мест в производительности
+     и получения информации для потенциальной оптимизации компилятора и микроархитектуры.
+    \item Исследовал и разработал методы обнаружения узких мест микроархитектуры процессора посредством \\
+     анализа исполнения на уровне инструкций для возможности предоставления рекомендаций по улучшению дизайна микроархитектуры.
+    \item Разработал инструмент для выделения небольших, репрезентативных участков приложений, которые точно
+     отражают общую рабочую нагрузку оригинального приложения, что позволяет проводить анализ производительности
+     на высокоточных симуляторах.
+    \item Реализовал систему хранения и анализа метрик, предоставляющую информацию о поведении приложений
+     и позволяющую визуализировать большие объёмы данных о производительности приложений.
+\end{itemize}
+
+\begin{center}
+    \textbf{Проекты}
+\end{center}
+
+\textbf{FidgetSense (Партнёр)} \hfill Сентябрь 2025 – настоящее время
+
+Разработка аппаратно-программной системы из трех беспроводных колец, которые непрерывно отслеживают движения пальцев
+ для обнаружения беспокойных движений, связанных с тревожностью. Алгоритмы анализируют динамику движений
+ для количественной оценки уровня тревожности и оценки эффективности лечения на основе наблюдаемой во времени динамики.
+
+Достижения:
+\begin{itemize}[noitemsep, topsep=0pt, partopsep=0pt, parsep=0pt]
+    \item Конкурс Triple Point Social Tech: третье место
+    \item Инновационный семинар Сколтеха (медицинская группа): третье место
+\end{itemize}
+
+\begin{center}
+    \textbf{Навыки \& Интересы}
+\end{center}
+
+\textbf{Технические:} C/C++, Python, ML, Linux, архитектура вычислительных ядер и подсистемы памяти, MBSE
+
+\textbf{Языки:} Русский(носитель), Английский(B2)
+
+\textbf{Интересы:} передовые технологии, инженерия систем, программирование систем, моделирование систем 
+
+
+\end{document}
