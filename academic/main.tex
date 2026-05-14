@@ -1,0 +1,115 @@
+\documentclass[11pt]{article}
+\usepackage{graphicx}
+\setlength{\parindent}{0pt}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc} 
+\usepackage[T1,T2A]{fontenc}
+\usepackage[english]{babel}
+\usepackage[left=1.06cm,top=1.7cm,right=1.06cm,bottom=0.49cm]{geometry}
+\usepackage{fontawesome}
+
+\usepackage{hyphenat}
+\hyphenpenalty=10000
+\tolerance=9999
+
+\begin{document}
+\begin{center}
+    \textbf{\Large Denis Boborukhin}\\ 
+    \hrulefill
+\end{center}
+
+\newcommand{\infofield}[2]{\mbox{{\normalsize #1}\hspace{0.5em}#2}}
+\newcommand{\email}[1]{\infofield{\faEnvelope}{\href{mailto:#1}{#1}}}
+\newcommand{\location}[1]{\infofield{\faMapMarker}{#1}}
+\newcommand{\github}[2]{\infofield{\faGithub}{\href{#2}{#1}}}
+\newcommand{\telegram}[2]{\infofield{\faSend}{\href{#2}{#1}}}
+
+\begin{center}
+    \location{Moscow, Russia}
+    \email{denis.boborukhin@gmail.com}
+    \telegram{@dboborukhin}{https://t.me/dboborukhin} \\
+    \github{@denisboborukhin}{https://github.com/denisboborukhin}
+\end{center}
+
+\begin{center}
+    \textbf{Education}
+\end{center}
+
+\textbf{Skolkovo Institute of Science and Technology (Skoltech)} \hfill Moscow, Russia
+
+Master of Science, Engineering Systems: Product Lifecycle Management \hfill 2025--2027
+\begin{itemize}[noitemsep, topsep=0pt, partopsep=0pt, parsep=0pt]
+    \item Focus areas: Model-Based Systems Engineering, Lean Product Development, technological entrepreneurship
+    \item Current work: Set-Based Concurrent Engineering, SysML v2 application, MBSE
+\end{itemize}
+
+\vspace{12pt}
+
+\textbf{Moscow Institute of Physics and Technology (MIPT)} \hfill Moscow, Russia
+
+Bachelor of Science, Radio Engineering and Cybernetics \hfill 2021--2025
+
+\textit{Thesis:} Pattern Analysis of Instruction Streams for Identification and Classification of Application Performance Bottlenecks
+
+\vspace{6pt}
+
+Relevant Coursework:
+\begin{itemize}[noitemsep, topsep=0pt, partopsep=0pt, parsep=0pt]
+    \item C/C++ programming and system programming
+    \item Architecture of computing cores and memory subsystems of modern microprocessors
+    \item Simulators, compilers, and application analysis
+    \item Project-based development methodologies
+\end{itemize}
+
+
+\begin{center}
+    \textbf{Research \& Professional Experience}
+\end{center}
+
+\textbf{Yadro company} \hfill Moscow, Russia
+
+\textbf{Software Engineer, Performance Analysis Group}
+\begin{itemize}[noitemsep, topsep=0pt, partopsep=0pt, parsep=0pt]
+    \item Researched methods for detecting microarchitectural performance bottlenecks via instruction-level analysis, providing recommendations for microarchitectural design improvements.
+    \item Developed methodology for selecting representative application simulation points, enabling efficient performance analysis on cycle-accurate simulators.
+\end{itemize}
+
+\vspace{12pt}
+
+\textbf{Publications}
+
+\begin{itemize}[noitemsep, topsep=0pt, partopsep=0pt, parsep=0pt]
+    \item \textit{``A MDM-based Comparative Analysis of Behavioural Modelling in SysML v2 and ARCADIA-Capella.''} (3rd author) [To appear in July 2026]
+    \item Short-paper on timing-based side-channel attacks and countermeasures. Best paper award, Information Security course conference. \href{https://github.com/denisboborukhin/timing_attacks/blob/main/main.pdf}{(September 2024)}
+\end{itemize}
+
+\vspace{12pt}
+\textbf{Project: FidgetSense} \hfill September 2025 -- Present
+
+Hardware-software system of three wireless smart rings for continuous finger movement tracking to detect anxiety-related fidgeting.
+
+Achievements:
+\begin{itemize}[noitemsep, topsep=0pt, partopsep=0pt, parsep=0pt]
+    \item Triple Point Social Tech Competition: Third place
+    \item Skoltech Innovation Workshop (Medical Cohort): Third place
+\end{itemize}
+
+\begin{center}
+    \textbf{Technical Skills}
+\end{center}
+
+\textbf{Programming:} C/C++, Python, Go, Bash, LaTeX
+
+\textbf{Systems \& Tools:} Linux, QEMU, OpenMP, MPI, Git, performance profiling tools
+
+\textbf{Domains:} Systems Engineering, Model-Based Systems Engineering, Lean Product Development, applications performance analysis
+
+\begin{center}
+    \textbf{Research Interests}
+\end{center}
+
+Model-Based Systems Engineering, Lean Product Development, system architecture modeling and simulation, behavioral modeling, hardware-software co-design
+
+
+\end{document}
