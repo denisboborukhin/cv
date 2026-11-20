@@ -3,7 +3,7 @@
 \setlength{\parindent}{0pt}
 \usepackage{hyperref}
 \usepackage{enumitem}
-\usepackage[utf8]{inputenc} 
+\usepackage[utf8]{inputenc}
 \usepackage[T1,T2A]{fontenc}
 \usepackage[brazil]{babel}
 \usepackage{lipsum}
@@ -16,8 +16,8 @@
 
 \begin{document}
 \begin{center}
-    \textbf{Denis Boborukhin}\\ 
-    \hrulefill
+  \textbf{Denis Boborukhin}\\
+  \hrulefill
 \end{center}
 
 \newcommand{\infofield}[2]{\mbox{{\normalsize #1}\hspace{0.5em}#2}}
@@ -28,81 +28,88 @@
 \newcommand{\telegram}[2]{\infofield{\faSend}{\href{#2}{#1}}}
 
 \begin{center}
-    \location{Moscow, Russia}
-    \email{denis.boborukhin@gmail.com}
-    \telegram{@dboborukhin}{https://t.me/dboborukhin} \\
-    \linkedin{denis-boborukhin}{https://www.linkedin.com/in/denis-boborukhin}
-    \github{@denisboborukhin}{https://github.com/denisboborukhin}
+  \location{Moscow, Russia}
+  \email{denis.boborukhin@gmail.com}
+  \telegram{@dboborukhin}{https://t.me/dboborukhin} \\
+  \linkedin{denis-boborukhin}{https://www.linkedin.com/in/denis-boborukhin}
+  \github{@denisboborukhin}{https://github.com/denisboborukhin}
 \end{center}
 
 \vspace{0.5pt}
 
 \begin{center}
-    \textbf{Education}
+  \textbf{Education}
 \end{center}
 
 \textbf{Skolkovo Institute of Science and Technology: Skoltech} \hfill Moscow
 
 Master of Engineering, Engineering Systems: Product Lifecycle Management \hfill 2025-2027
 \begin{itemize}[noitemsep, topsep=0pt, partopsep=0pt, parsep=0pt]
-    \item systems engineering, product lifecycle management 
-    \item technological entrepreneurship
+  \item Developing a tool for engineering teams to jointly model operational scenarios for technical
+    systems as part of a startup thesis.
+  \item Co-authored a paper comparing how SysML v2 and Arcadia/Capella model system behavior.
+  \item Built hardware prototypes and programmed microcontrollers in robotics and systems engineering.
 \end{itemize}
 
 \vspace{12pt}
 
 \textbf{Moscow Institute of Physics and Technology: MIPT} \hfill Moscow
 
-Bachelor, Radio Engineering and Cybernetics \hfill 2021-2025
+Bachelor, Radio Engineering and Computer Sciences \hfill 2021-2025
 \begin{itemize}[noitemsep, topsep=0pt, partopsep=0pt, parsep=0pt]
-    \item the use and application of the C/C++ languages, system programming 
-    \item architecture of computing cores and memory subsystems of modern microprocessors
+  \item Thesis --- \textit{Instruction Pattern Analysis for Identifying Microarchitectural Bottlenecks}.
+  \item Hands-on experience in C++ systems programming, performance analysis, and compiler optimization.
+    Academic training in applied mathematics, radio engineering and physics.
+  \item Studied microprocessor architecture, with a focus on processor cores and memory subsystems.
 \end{itemize}
 
 \vspace{12pt}
 
 \begin{center}
-    \textbf{Experience}
+  \textbf{Experience}
 \end{center}
 \textbf{Yadro} \hfill Moscow
 
 \textbf{Software Engineer} \hfill July 2023 – Present
 \begin{itemize}[noitemsep, topsep=0pt, partopsep=0pt, parsep=0pt]
-    \item Developed QEMU-based profiling tools, enabling application analysis to identify performance
-     bottlenecks and generate insights for potential compiler and microarchitectural optimizations.
-    \item Researched and developed methods for detecting microarchitectural performance bottlenecks through \\
-     instruction-level analysis, providing recommendations for microarchitectural design improvements.
-    \item Developed a tool for selecting small, representative application sections that accurately capture the overall workload,
-     enabling performance analysis on high-fidelity simulators.
-    \item Implemented a system for metric storage and analytics, providing insights into applications behavior
-     and enabling visualization of large-scale application's performance data.
+  \item Developed QEMU-based profiling tools to identify application performance bottlenecks and inform
+    compiler and microarchitectural optimizations.
+  \item Developed gem5-based methods to identify instruction patterns that cause microarchitectural
+    performance bottlenecks and used the findings to recommend microarchitectural design improvements.
+  \item Built a tool based on the SimPoint approach that supports different types of workload feature vectors
+    to select short, representative execution intervals for cycle-accurate simulation.
+  \item Automated matching of corresponding execution intervals across builds of the same application with
+    different compiler options, reducing manual work for the performance analysis team.
+  \item Reconstructed control-flow graphs from QEMU instruction traces to detect loops and representative
+    cmetrics, helping analysts identify frequently executed loops.
+  \item Implemented a system to store, analyze, and visualize large volumes of application performance
+    metrics, helping analysts inspect workload behavior.
 \end{itemize}
 
 \begin{center}
-    \textbf{Activities}
+  \textbf{Activities}
 \end{center}
 
-\textbf{FidgetSense (Partner)} \hfill September 2025 – Present
+\textbf{FidgetSense (CTO)} \hfill September 2025 – Present
 
 Develops a hardware-software system of three wireless smart rings that continuously track finger movements
- to detect anxiety-related fidgeting. Algorithms analyze movement dynamics
- to quantify anxiety levels and evaluate treatment effectiveness through observed dynamic over time.
+to detect anxiety-related fidgeting. Algorithms analyze movement dynamics to quantify anxiety levels and
+evaluate treatment effectiveness through observed dynamic over time.
 
 Achievements:
 \begin{itemize}[noitemsep, topsep=0pt, partopsep=0pt, parsep=0pt]
-    \item Triple Point Social Tech Competition: Third place
-    \item Skoltech Innovation Workshop (Medical Cohort): Third place
+  \item Triple Point Social Tech Competition: Third place
+  \item Skoltech Innovation Workshop (Medical Cohort): Third place
 \end{itemize}
 
 \begin{center}
-    \textbf{Skills \& Interests}
+  \textbf{Skills \& Interests}
 \end{center}
 
-\textbf{Technical:} C/C++, Python, Linux, ML, architecture of computing cores and memory subsystem, Go, MBSE
+\textbf{Technical:} C/C++, Python, Linux, ML, microcontrollers, Go, MBSE
 
 \textbf{Language:} Russian(native), English(B2)
 
-\textbf{Interests:} state of the art technologies, systems engineering, system programming, system modeling \& simulation
-
+\textbf{Interests:} systems engineering, AI \& Robotics, system programming, modeling \& simulation
 
 \end{document}
